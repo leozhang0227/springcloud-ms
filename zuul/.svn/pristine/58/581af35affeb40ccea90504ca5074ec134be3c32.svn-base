@@ -1,0 +1,13 @@
+eureka.client.serviceUrl.defaultZone=http://localhost:8088/eureka/
+spring.application.name=gateway
+server.port=8083
+zuul.routes.faq=/service/faq/**
+zuul.routes.notification=/service/notification/**
+
+#============================================================================
+# Logging Properties 
+#============================================================================
+logging.level.org.springframework=DEBUG
+logging.level.com.capgemini.hrapp=DEBUG
+logging.file=../microservices/logs/gateway-service.log
+

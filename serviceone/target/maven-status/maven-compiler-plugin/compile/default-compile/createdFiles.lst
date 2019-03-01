@@ -1,0 +1,3 @@
+cn\demo\service\Application.class
+cn\demo\service\client\IFeignClient.class
+cn\demo\service\controller\ServiceController.class

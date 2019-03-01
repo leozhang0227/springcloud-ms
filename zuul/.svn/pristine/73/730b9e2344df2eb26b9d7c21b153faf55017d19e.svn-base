@@ -1,0 +1,7 @@
+#============================================================================
+# SSL Properties 
+#============================================================================
+server.ssl.key-store: /etc/nginx/ca/server.p12
+server.ssl.key-store-password: hrgenie
+server.ssl.keyStoreType: PKCS12
+server.ssl.keyAlias: 1

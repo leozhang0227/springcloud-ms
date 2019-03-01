@@ -1,0 +1,7 @@
+#============================================================================
+# SSL Properties 
+#============================================================================
+server.ssl.key-store: classpath:keystore.p12
+server.ssl.key-store-password: gateway
+server.ssl.keyStoreType: PKCS12
+server.ssl.keyAlias: tomcat
